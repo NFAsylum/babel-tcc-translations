@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Keyword Table",
+  "description": "Tabela base de keywords de uma linguagem de programacao",
+  "type": "object",
+  "required": ["keywords"],
+  "properties": {
+    "keywords": {
+      "type": "object",
+      "description": "Mapa de keyword original para ID numerico",
+      "patternProperties": {
+        "^[a-z]+$": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

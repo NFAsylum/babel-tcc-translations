@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Translation Table",
+  "description": "Tabela de traducao de keywords para um idioma natural",
+  "type": "object",
+  "required": ["version", "languageCode", "languageName", "programmingLanguage", "translations"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Versao do formato"
+    },
+    "languageCode": {
+      "type": "string",
+      "description": "Codigo do idioma natural (ex: pt-br, es-es)"
+    },
+    "languageName": {
+      "type": "string",
+      "description": "Nome do idioma natural"
+    },
+    "programmingLanguage": {
+      "type": "string",
+      "description": "Nome da linguagem de programacao"
+    },
+    "translations": {
+      "type": "object",
+      "description": "Mapa de ID numerico para keyword traduzida",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
