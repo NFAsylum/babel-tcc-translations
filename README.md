@@ -7,7 +7,7 @@ Repositorio de tabelas de traducao para o projeto [babel-tcc](https://github.com
 ```
 programming-languages/
   csharp/
-    keywords-base.json       # 77 keywords C# com IDs numericos
+    keywords-base.json       # 89 keywords C# com IDs numericos
 
 natural-languages/
   pt-br/
@@ -53,11 +53,19 @@ Mapeia IDs numericos para traducoes no idioma natural:
 }
 ```
 
+## Validacao automatica
+
+Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI verifica:
+- Sintaxe JSON valida
+- Conformidade com os schemas
+- Completude (todos os IDs do keywords-base cobertos)
+- Unicidade (sem traducoes duplicadas)
+
 ## Adicionar novo idioma
 
 1. Copiar `natural-languages/template.json` para `natural-languages/<codigo-idioma>/csharp.json`
 2. Preencher `languageCode`, `languageName` e todas as traducoes
-3. Testar com o Core engine
+3. Abrir PR — o CI valida automaticamente
 
 ## Idiomas disponiveis
 
