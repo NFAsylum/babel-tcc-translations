@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "languageCode": "zh-hans",
-  "languageName": "中文 (简体)",
+  "languageCode": "zh-cn",
+  "languageName": "中文 (中国)",
   "programmingLanguage": "CSharp",
   "translations": {
     "0": "抽象",

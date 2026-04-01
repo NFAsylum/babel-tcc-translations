@@ -125,5 +125,5 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 | de-de | Deutsch (Deutschland) | C# |
 | it-it | Italiano (Italia) | C# |
 | ja-jp-romaji | Nihongo (Nihon, Romaji) | C# |
-| zh-hans | 中文 (简体) | C# |
+| zh-cn | 中文 (中国) | C# |
 | ar-sa | العربية (المملكة العربية السعودية) | C# |
