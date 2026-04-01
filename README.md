@@ -86,9 +86,9 @@ Variantes ASCII (sem acentos/diacriticos) ou romanizadas (romaji, pinyin) podem 
 
 | Tipo | Exemplo de code | Descricao |
 |------|----------------|-----------|
-| Nativo (padrao) | `pt-br-acentuado` | Usa caracteres corretos: `padrão`, `senão` |
-| ASCII simplificado | `pt-br` | Remove acentos: `padrao`, `senao` |
-| Romanizado | `ja-jp` | Usa romaji: `kurikaeshi`, `kurasu` |
+| Nativo (padrao) | `pt-br` | Usa caracteres corretos: `padrão`, `senão` |
+| ASCII simplificado | `pt-br-ascii` | Remove acentos: `padrao`, `senao` |
+| Romanizado | `ja-jp-romaji` | Usa romaji: `kurikaeshi`, `kurasu` |
 
 ### Diretorio
 
@@ -118,10 +118,10 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 | Codigo | Idioma | Linguagens |
 |--------|--------|------------|
 | pt-br | Português (Brasil) | C# |
-| pt-br-acentuado | Português (Brasil, Acentuado) | C# |
+| pt-br-ascii | Português (Brasil, ASCII) | C# |
 | en-us | English (United States) | C# |
 | es-es | Español (España) | C# |
 | fr-fr | Français (France) | C# |
 | de-de | Deutsch (Deutschland) | C# |
 | it-it | Italiano (Italia) | C# |
-| ja-jp | Nihongo (Nihon, Romaji) | C# |
+| ja-jp-romaji | Nihongo (Nihon, Romaji) | C# |
