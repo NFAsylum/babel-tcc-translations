@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "languageCode": "pt-br-acentuado",
-  "languageName": "Português Brasileiro (Acentuado)",
+  "languageName": "Português (Brasil, Acentuado)",
   "programmingLanguage": "CSharp",
   "translations": {
     "0": "abstrato",

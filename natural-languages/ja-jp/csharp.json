@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "languageCode": "ja-jp",
-  "languageName": "Nihongo Romaji",
+  "languageName": "Nihongo (Nihon, Romaji)",
   "programmingLanguage": "CSharp",
   "translations": {
     "0": "chuushou",
