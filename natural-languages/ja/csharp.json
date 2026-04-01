@@ -30,7 +30,7 @@
     "23": "nise",
     "24": "saishuu",
     "25": "kotei",
-    "26": "fudousouten",
+    "26": "fudoushousuuten",
     "27": "kurikaeshi",
     "28": "subetekurikaeshi",
     "29": "idou",
@@ -42,7 +42,7 @@
     "35": "naibu",
     "36": "dearu",
     "37": "rokku",
-    "38": "choususei",
+    "38": "chouseisuu",
     "39": "meimaikuukan",
     "40": "atarashii",
     "41": "kara",
@@ -57,7 +57,7 @@
     "50": "yomitorisenyou",
     "51": "sanshou",
     "52": "modoru",
-    "53": "fubaitogobaito",
+    "53": "fugoutsukibaito",
     "54": "fuuin",
     "55": "tansei",
     "56": "ookisa",
@@ -72,7 +72,7 @@
     "65": "tameshi",
     "66": "katano",
     "67": "fugouseisuu",
-    "68": "fugouchoususei",
+    "68": "fugouchouseisuu",
     "69": "mikensa",
     "70": "fuanzen",
     "71": "fugoutansei",
@@ -92,6 +92,6 @@
     "85": "namaeno",
     "86": "shokika",
     "87": "hissu",
-    "88": "zenkyu"
+    "88": "zenkyoku"
   }
 }
