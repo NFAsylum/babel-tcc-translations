@@ -9,7 +9,7 @@
       "type": "object",
       "description": "Mapa de keyword original para ID numerico",
       "patternProperties": {
-        "^[a-z]+$": {
+        "^[a-zA-Z_]+$": {
           "type": "integer",
           "minimum": 0
         }
