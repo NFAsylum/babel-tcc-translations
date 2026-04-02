@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 SKIP_FILES = {"template.json"}
 
-KEYWORD_PATTERN = re.compile(r"^[a-z]+$")
+KEYWORD_PATTERN = re.compile(r"^[a-zA-Z_]+$")
 ID_PATTERN = re.compile(r"^[0-9]+$")
 
 
@@ -82,7 +82,7 @@ def validate_keyword_table_schema(path, data):
 
     for key, value in keywords.items():
         if not KEYWORD_PATTERN.match(key):
-            errors.append(f"  {rel}: chave '{key}' nao corresponde ao pattern ^[a-z]+$")
+            errors.append(f"  {rel}: chave '{key}' nao corresponde ao pattern ^[a-zA-Z_]+$")
         if not isinstance(value, int) or value < 0:
             errors.append(f"  {rel}: valor de '{key}' deve ser um inteiro >= 0, encontrado: {value}")
 
