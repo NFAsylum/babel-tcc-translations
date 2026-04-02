@@ -8,12 +8,16 @@ Repositorio de tabelas de traducao para o projeto [babel-tcc](https://github.com
 programming-languages/
   csharp/
     keywords-base.json       # 89 keywords C# com IDs numericos
+  python/
+    keywords-base.json       # 35 keywords Python com IDs numericos
 
 natural-languages/
   pt-br/
     csharp.json              # Traducoes PT-BR para C#
+    python.json              # Traducoes PT-BR para Python
   en-us/
     csharp.json              # Traducoes EN-US para C#
+    python.json              # Traducoes EN-US para Python
   ...
   template.json              # Template para novos idiomas
 
@@ -95,7 +99,7 @@ Variantes ASCII (sem acentos/diacriticos) ou romanizadas (romaji, pinyin) podem 
 Cada idioma deve ter seu proprio diretorio dentro de `natural-languages/`, nomeado com o `languageCode`:
 
 ```
-natural-languages/{languageCode}/csharp.json
+natural-languages/{languageCode}/{programmingLanguage}.json
 ```
 
 ## Validacao automatica
@@ -108,7 +112,7 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 
 ## Adicionar novo idioma
 
-1. Copiar `natural-languages/template.json` para `natural-languages/<language-code>/csharp.json`
+1. Copiar `natural-languages/template.json` para `natural-languages/<language-code>/<programming-language>.json`
 2. Preencher `languageCode` (BCP 47), `languageName` (CLDR) e todas as traducoes
 3. Usar caracteres nativos do idioma nos valores de traducao
 4. Abrir PR — o CI valida automaticamente
@@ -117,13 +121,13 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 
 | Codigo | Idioma | Linguagens |
 |--------|--------|------------|
-| pt-br | Português (Brasil) | C# |
-| pt-br-ascii | Português (Brasil, ASCII) | C# |
-| en-us | English (United States) | C# |
-| es-es | Español (España) | C# |
-| fr-fr | Français (France) | C# |
-| de-de | Deutsch (Deutschland) | C# |
-| it-it | Italiano (Italia) | C# |
-| ja-jp-romaji | Nihongo (Nihon, Romaji) | C# |
-| zh-cn | 中文 (中国) | C# |
-| ar-sa | العربية (المملكة العربية السعودية) | C# |
+| pt-br | Português (Brasil) | C#, Python |
+| pt-br-ascii | Português (Brasil, ASCII) | C#, Python |
+| en-us | English (United States) | C#, Python |
+| es-es | Español (España) | C#, Python |
+| fr-fr | Français (France) | C#, Python |
+| de-de | Deutsch (Deutschland) | C#, Python |
+| it-it | Italiano (Italia) | C#, Python |
+| ja-jp-romaji | Nihongo (Nihon, Romaji) | C#, Python |
+| zh-cn | 中文 (中国) | C#, Python |
+| ar-sa | العربية (المملكة العربية السعودية) | C#, Python |
