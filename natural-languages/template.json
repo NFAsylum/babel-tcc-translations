@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "languageCode": "<language-code>",
   "languageName": "<Language Name>",
-  "programmingLanguage": "CSharp",
+  "programmingLanguage": "<ProgrammingLanguage>",
   "translations": {
     "0": "",
     "1": "",
