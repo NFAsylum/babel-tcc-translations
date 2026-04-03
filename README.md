@@ -19,7 +19,6 @@ natural-languages/
     csharp.json              # Traducoes EN-US para C#
     python.json              # Traducoes EN-US para Python
   ...
-  template.json              # Template para novos idiomas
 
 schema/
   keyword-table.schema.json  # JSON Schema para keywords-base
@@ -112,8 +111,8 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 
 ## Adicionar novo idioma
 
-1. Copiar `natural-languages/template.json` para `natural-languages/<language-code>/<programming-language>.json`
-2. Preencher `languageCode` (BCP 47), `languageName` (CLDR) e todas as traducoes
+1. Copiar um arquivo existente da mesma linguagem de programacao como base (ex: copiar `pt-br/python.json` para `novo-idioma/python.json`)
+2. Atualizar `languageCode` (BCP 47), `languageName` (CLDR) e todas as traducoes
 3. Usar caracteres nativos do idioma nos valores de traducao
 4. Abrir PR — o CI valida automaticamente
 

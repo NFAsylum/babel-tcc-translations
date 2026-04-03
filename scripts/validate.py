@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-SKIP_FILES = {"template.json"}
+SKIP_FILES = set()
 
 KEYWORD_PATTERN = re.compile(r"^[a-zA-Z_]+$")
 ID_PATTERN = re.compile(r"^[0-9]+$")
