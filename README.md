@@ -1,5 +1,7 @@
 # babel-tcc-translations
 
+[![Validate Translations](https://github.com/NFAsylum/babel-tcc-translations/actions/workflows/validate-translations.yml/badge.svg)](https://github.com/NFAsylum/babel-tcc-translations/actions/workflows/validate-translations.yml)
+
 Repositorio de tabelas de traducao para o projeto [babel-tcc](https://github.com/NFAsylum/babel-tcc).
 
 ## Estrutura
