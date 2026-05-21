@@ -12,14 +12,22 @@ programming-languages/
     keywords-base.json       # 89 keywords C# com IDs numericos
   python/
     keywords-base.json       # 35 keywords Python com IDs numericos
+  visualg/
+    keywords-base.json       # 48 keywords VisuAlg (Pascal-like, .alg)
+  portugolstudio/
+    keywords-base.json       # 26 keywords Portugol Studio (C-like, .por)
 
 natural-languages/
   pt-br/
     csharp.json              # Traducoes PT-BR para C#
     python.json              # Traducoes PT-BR para Python
+    visualg.json             # Traducoes PT-BR para VisuAlg (identidade)
+    portugolstudio.json      # Traducoes PT-BR para Portugol Studio (identidade)
   en-us/
     csharp.json              # Traducoes EN-US para C#
     python.json              # Traducoes EN-US para Python
+    visualg.json             # Traducoes EN-US para VisuAlg
+    portugolstudio.json      # Traducoes EN-US para Portugol Studio
   ...
 
 schema/
@@ -122,13 +130,13 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 
 | Codigo | Idioma | Linguagens |
 |--------|--------|------------|
-| pt-br | Português (Brasil) | C#, Python |
-| pt-br-ascii | Português (Brasil, ASCII) | C#, Python |
-| en-us | English (United States) | C#, Python |
-| es-es | Español (España) | C#, Python |
-| fr-fr | Français (France) | C#, Python |
-| de-de | Deutsch (Deutschland) | C#, Python |
-| it-it | Italiano (Italia) | C#, Python |
-| ja-jp-romaji | Nihongo (Nihon, Romaji) | C#, Python |
-| zh-cn | 中文 (中国) | C#, Python |
-| ar-sa | العربية (المملكة العربية السعودية) | C#, Python |
+| pt-br | Português (Brasil) | C#, Python, VisuAlg, Portugol Studio |
+| pt-br-ascii | Português (Brasil, ASCII) | C#, Python, VisuAlg, Portugol Studio |
+| en-us | English (United States) | C#, Python, VisuAlg, Portugol Studio |
+| es-es | Español (España) | C#, Python, VisuAlg, Portugol Studio |
+| fr-fr | Français (France) | C#, Python, VisuAlg, Portugol Studio |
+| de-de | Deutsch (Deutschland) | C#, Python, VisuAlg, Portugol Studio |
+| it-it | Italiano (Italia) | C#, Python, VisuAlg, Portugol Studio |
+| ja-jp-romaji | Nihongo (Nihon, Romaji) | C#, Python, VisuAlg, Portugol Studio |
+| zh-cn | 中文 (中国) | C#, Python, VisuAlg, Portugol Studio |
+| ar-sa | العربية (المملكة العربية السعودية) | C#, Python, VisuAlg, Portugol Studio |
