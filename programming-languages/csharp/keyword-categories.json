@@ -19,7 +19,6 @@
     "goto": "control",
     "yield": "control",
     "await": "control",
-
     "void": "type",
     "int": "type",
     "string": "type",
@@ -44,7 +43,6 @@
     "enum": "type",
     "delegate": "type",
     "record": "type",
-
     "public": "modifier",
     "protected": "modifier",
     "private": "modifier",
@@ -63,9 +61,10 @@
     "unsafe": "modifier",
     "fixed": "modifier",
     "required": "modifier",
-
     "true": "literal",
     "false": "literal",
-    "null": "literal"
+    "null": "literal",
+    "get": "other",
+    "set": "other"
   }
 }

@@ -88,6 +88,8 @@
     "nameof": 85,
     "init": 86,
     "required": 87,
-    "global": 88
+    "global": 88,
+    "get": 89,
+    "set": 90
   }
 }

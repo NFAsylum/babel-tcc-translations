@@ -92,6 +92,8 @@
     "85": "nomede",
     "86": "inicializador",
     "87": "obrigatorio",
-    "88": "global"
+    "88": "global",
+    "89": "obter",
+    "90": "definir"
   }
 }

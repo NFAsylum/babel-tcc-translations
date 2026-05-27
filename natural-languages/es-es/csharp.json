@@ -92,6 +92,8 @@
     "85": "nombrede",
     "86": "inicializador",
     "87": "requerido",
-    "88": "global"
+    "88": "global",
+    "89": "obtener",
+    "90": "establecer"
   }
 }
