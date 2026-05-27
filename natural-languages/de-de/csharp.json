@@ -92,6 +92,8 @@
     "85": "namevon",
     "86": "initialisierer",
     "87": "erforderlich",
-    "88": "global"
+    "88": "global",
+    "89": "holen",
+    "90": "setzen"
   }
 }
