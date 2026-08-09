@@ -9,9 +9,14 @@ Repositorio de tabelas de traducao para o projeto [babel-tcc](https://github.com
 ```
 programming-languages/
   csharp/
-    keywords-base.json       # 89 keywords C# com IDs numericos
+    keywords-base.json       # 91 keywords C# com IDs numericos
+    keyword-categories.json  # Categoria semantica de cada keyword (controle, tipo, modificador...)
   python/
     keywords-base.json       # 35 keywords Python com IDs numericos
+    keyword-categories.json  # Categoria semantica de cada keyword
+  javascript/
+    keywords-base.json       # 38 keywords JavaScript (keyword-only, .js)
+    keyword-categories.json  # Categoria semantica de cada keyword
   visualg/
     keywords-base.json       # 48 keywords VisuAlg (Pascal-like, .alg)
   portugolstudio/
@@ -23,11 +28,13 @@ natural-languages/
     python.json              # Traducoes PT-BR para Python
     visualg.json             # Traducoes PT-BR para VisuAlg (identidade)
     portugolstudio.json      # Traducoes PT-BR para Portugol Studio (identidade)
+    javascript.json          # Traducoes PT-BR para JavaScript
   en-us/
     csharp.json              # Traducoes EN-US para C#
     python.json              # Traducoes EN-US para Python
     visualg.json             # Traducoes EN-US para VisuAlg
     portugolstudio.json      # Traducoes EN-US para Portugol Studio
+    javascript.json          # Traducoes EN-US para JavaScript
   ...
 
 schema/
@@ -130,13 +137,13 @@ Todas as PRs para `main` sao validadas automaticamente via GitHub Actions. O CI 
 
 | Codigo | Idioma | Linguagens |
 |--------|--------|------------|
-| pt-br | Português (Brasil) | C#, Python, VisuAlg, Portugol Studio |
-| pt-br-ascii | Português (Brasil, ASCII) | C#, Python, VisuAlg, Portugol Studio |
-| en-us | English (United States) | C#, Python, VisuAlg, Portugol Studio |
-| es-es | Español (España) | C#, Python, VisuAlg, Portugol Studio |
-| fr-fr | Français (France) | C#, Python, VisuAlg, Portugol Studio |
-| de-de | Deutsch (Deutschland) | C#, Python, VisuAlg, Portugol Studio |
-| it-it | Italiano (Italia) | C#, Python, VisuAlg, Portugol Studio |
-| ja-jp-romaji | Nihongo (Nihon, Romaji) | C#, Python, VisuAlg, Portugol Studio |
-| zh-cn | 中文 (中国) | C#, Python, VisuAlg, Portugol Studio |
-| ar-sa | العربية (المملكة العربية السعودية) | C#, Python, VisuAlg, Portugol Studio |
+| pt-br | Português (Brasil) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| pt-br-ascii | Português (Brasil, ASCII) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| en-us | English (United States) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| es-es | Español (España) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| fr-fr | Français (France) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| de-de | Deutsch (Deutschland) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| it-it | Italiano (Italia) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| ja-jp-romaji | Nihongo (Nihon, Romaji) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| zh-cn | 中文 (中国) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
+| ar-sa | العربية (المملكة العربية السعودية) | C#, Python, JavaScript, VisuAlg, Portugol Studio |
