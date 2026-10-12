@@ -9,7 +9,7 @@ Obrigado pelo interesse em contribuir com tabelas de traducao! Este repositorio 
 1. Fork este repositorio
 2. Escolha um codigo de idioma no formato BCP 47 (ex: `de-at` para Alemao da Austria)
 3. Crie a pasta `natural-languages/<seu-codigo>/`
-4. Para cada linguagem de programacao suportada (`csharp`, `python`, `visualg`, `portugolstudio`), crie um arquivo JSON copiando como base uma traducao existente (ex: `natural-languages/pt-br/python.json`)
+4. Para cada linguagem de programacao suportada (`csharp`, `python`, `javascript`, `visualg`, `portugolstudio`), crie um arquivo JSON copiando como base uma traducao existente (ex: `natural-languages/pt-br/python.json`)
 5. Atualize `version`, `languageCode`, `languageName` e todas as `translations`
 6. Valide localmente: `python3 scripts/validate.py`
 7. Abra Pull Request
